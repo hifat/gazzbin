@@ -1,9 +1,9 @@
 package taskHdl
 
 import (
-	"go-casbin/internal/domain/taskDomain"
-	"go-casbin/internal/handler/httpResponse"
-	"go-casbin/internal/util/uResponse"
+	"gazzbin/internal/domain/taskDomain"
+	"gazzbin/internal/handler/httpResponse"
+	"gazzbin/internal/util/uResponse"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

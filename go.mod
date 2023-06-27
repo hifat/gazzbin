@@ -1,4 +1,4 @@
-module go-casbin
+module gazzbin
 
 go 1.20
 

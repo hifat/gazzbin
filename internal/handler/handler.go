@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"go-casbin/internal/handler/taskHdl"
+	"gazzbin/internal/handler/taskHdl"
 
 	"github.com/google/wire"
 )

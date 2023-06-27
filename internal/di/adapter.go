@@ -1,7 +1,7 @@
 package di
 
 import (
-	"go-casbin/internal/handler"
+	"gazzbin/internal/handler"
 
 	"github.com/google/wire"
 )

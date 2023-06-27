@@ -2,9 +2,9 @@ package main
 
 import (
 	"context"
-	"go-casbin/internal/config"
-	"go-casbin/internal/di"
-	"go-casbin/internal/routes"
+	"gazzbin/internal/config"
+	"gazzbin/internal/di"
+	"gazzbin/internal/routes"
 	"log"
 	"net/http"
 	"os/signal"

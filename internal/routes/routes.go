@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"go-casbin/internal/handler"
+	"gazzbin/internal/handler"
 
 	"github.com/gin-gonic/gin"
 )

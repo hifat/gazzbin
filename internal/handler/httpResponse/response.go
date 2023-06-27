@@ -1,7 +1,7 @@
 package httpResponse
 
 import (
-	"go-casbin/internal/util/uError"
+	"gazzbin/internal/util/uError"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

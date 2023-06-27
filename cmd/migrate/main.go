@@ -1,9 +1,9 @@
 package main
 
 import (
-	"go-casbin/internal/config"
-	"go-casbin/internal/model/gormModel"
-	"go-casbin/internal/repository"
+	"gazzbin/internal/config"
+	"gazzbin/internal/model/gormModel"
+	"gazzbin/internal/repository"
 
 	"gorm.io/gorm"
 )

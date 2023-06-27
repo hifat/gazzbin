@@ -1,8 +1,8 @@
 package taskSrv
 
 import (
-	"go-casbin/internal/domain/taskDomain"
-	"go-casbin/internal/util/uError"
+	"gazzbin/internal/domain/taskDomain"
+	"gazzbin/internal/util/uError"
 	"log"
 
 	"github.com/google/uuid"

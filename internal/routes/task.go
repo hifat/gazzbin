@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"go-casbin/internal/handler/taskHdl"
+	"gazzbin/internal/handler/taskHdl"
 )
 
 func (r *routes) Task(h taskHdl.TaskHandler) {

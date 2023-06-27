@@ -2,7 +2,7 @@ package repository
 
 import (
 	"fmt"
-	"go-casbin/internal/config"
+	"gazzbin/internal/config"
 
 	"github.com/google/wire"
 	"gorm.io/driver/postgres"

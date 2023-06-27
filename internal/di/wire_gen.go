@@ -8,12 +8,12 @@ package di
 
 import (
 	"github.com/google/wire"
-	"go-casbin/internal/config"
-	"go-casbin/internal/handler"
-	"go-casbin/internal/handler/taskHdl"
-	"go-casbin/internal/repository"
-	"go-casbin/internal/repository/taskRepo"
-	"go-casbin/internal/service/taskSrv"
+	"gazzbin/internal/config"
+	"gazzbin/internal/handler"
+	"gazzbin/internal/handler/taskHdl"
+	"gazzbin/internal/repository"
+	"gazzbin/internal/repository/taskRepo"
+	"gazzbin/internal/service/taskSrv"
 )
 
 // Injectors from wire.go:

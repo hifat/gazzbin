@@ -1,8 +1,8 @@
 package taskRepo
 
 import (
-	"go-casbin/internal/domain/taskDomain"
-	"go-casbin/internal/model/gormModel"
+	"gazzbin/internal/domain/taskDomain"
+	"gazzbin/internal/model/gormModel"
 
 	"github.com/google/uuid"
 	"github.com/google/wire"
