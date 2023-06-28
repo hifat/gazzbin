@@ -1,6 +1,7 @@
 package taskDomain
 
 import (
+	"gazzbin/internal/domain/userDomain"
 	"time"
 
 	"github.com/google/uuid"
@@ -26,7 +27,7 @@ type TaskOG struct {
 	ID        uuid.UUID  `json:"id"`
 	Name      string     `json:"name"`
 	Done      bool       `json:"done"`
-	UserID    *uuid.UUID `json:"-"`
+	UserID    *uuid.UUID `json:"userID"`
 	CreatedAt *time.Time `json:"createdAt,omitempty"`
 	UpdatedAt *time.Time `json:"updatedAt,omitempty"`
 	DeletedAt *time.Time `json:"deletedAt,omitempty"`
@@ -34,10 +35,11 @@ type TaskOG struct {
 
 type ResTask struct {
 	TaskOG
+	User *userDomain.UserOG `json:"user"`
 }
 
 type ReqTask struct {
-	Name   string     `json:"name" binding:"required,max=50"`
-	Done   bool       `json:"done,omitempty"`
-	UserID *uuid.UUID `json:"-"`
+	Name   string    `json:"name" binding:"required,max=50"`
+	Done   bool      `json:"done,omitempty"`
+	UserID uuid.UUID `json:"-"`
 }

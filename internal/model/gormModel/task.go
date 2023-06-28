@@ -12,7 +12,7 @@ type Task struct {
 	Name string    `gorm:"varchar(150)"`
 	Done bool      `gorm:"boolean"`
 
-	UserID *uuid.UUID `gorm:"uuid"`
+	UserID uuid.UUID `gorm:"uuid"`
 	User   User
 
 	CreatedAt *time.Time      `gorm:"timestamp"`
